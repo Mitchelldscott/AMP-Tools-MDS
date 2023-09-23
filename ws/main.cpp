@@ -17,9 +17,9 @@ int main(int argc, char** argv) {
     Problem2D problem = HW2::getWorkspace1();
 
     // Use WO1 from Exercise 2
-    /*
-    Problem2D problem = HW2::getWorkspace2();
-    */
+    
+    // Problem2D problem = HW2::getWorkspace2();
+    
 
     // Make a random environment spec, edit properties about it such as the number of obstacles
     /*
@@ -65,7 +65,7 @@ int main(int argc, char** argv) {
 
     Visualizer::showFigures();
 
-    HW2::grade(algo, "nonhuman.biologic@myspace.edu", argc, argv);
+    // HW2::grade(algo, "mitchell.scott@colorado.edu", argc, argv);
 
     return 0;
 }
